@@ -21,6 +21,8 @@ public class Kata5P1 {
             System.out.println("APELLIDOS = " + rs.getString("Apellidos"));
             System.out.println("ORGANIZACION = " + rs.getString("Departamento"));
         }
+        
+        statement.execute("CREATE TABLE 'MAIL' ('Id' INTEGER PRIMARY KEY AUTOINCREMENT," + "'Mail' INTEGER NOT NULL);");
     }
      
 }
