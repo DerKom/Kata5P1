@@ -18,6 +18,8 @@ public class Kata5P1 {
         while (rs.next()) {
             System.out.println("ID = " + rs.getInt("Id"));
             System.out.println("NAME = " + rs.getString("Name"));
+            System.out.println("APELLIDOS = " + rs.getString("Apellidos"));
+            System.out.println("ORGANIZACION = " + rs.getString("Departamento"));
         }
     }
      
